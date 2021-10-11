@@ -1,0 +1,4 @@
+/home/mayur/Desktop/sim/build/CMakeFiles/rebuild_cache.dir
+/home/mayur/Desktop/sim/build/CMakeFiles/Simulation.dir
+/home/mayur/Desktop/sim/build/CMakeFiles/edit_cache.dir
+/home/mayur/Desktop/sim/build/CMakeFiles/sim.dir
