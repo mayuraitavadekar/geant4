@@ -136,6 +136,33 @@ sim/fast:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
 .PHONY : sim/fast
 
+action.o: action.cc.o
+
+.PHONY : action.o
+
+# target to build an object file
+action.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.o
+.PHONY : action.cc.o
+
+action.i: action.cc.i
+
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.i
+.PHONY : action.cc.i
+
+action.s: action.cc.s
+
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.s
+.PHONY : action.cc.s
+
 construction.o: construction.cc.o
 
 .PHONY : construction.o
@@ -162,6 +189,33 @@ construction.s: construction.cc.s
 construction.cc.s:
 	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/construction.cc.s
 .PHONY : construction.cc.s
+
+generator.o: generator.cc.o
+
+.PHONY : generator.o
+
+# target to build an object file
+generator.cc.o:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.o
+.PHONY : generator.cc.o
+
+generator.i: generator.cc.i
+
+.PHONY : generator.i
+
+# target to preprocess a source file
+generator.cc.i:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.i
+.PHONY : generator.cc.i
+
+generator.s: generator.cc.s
+
+.PHONY : generator.s
+
+# target to generate assembly for a file
+generator.cc.s:
+	$(MAKE) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/generator.cc.s
+.PHONY : generator.cc.s
 
 physics.o: physics.cc.o
 
@@ -227,9 +281,15 @@ help:
 	@echo "... Simulation"
 	@echo "... edit_cache"
 	@echo "... sim"
+	@echo "... action.o"
+	@echo "... action.i"
+	@echo "... action.s"
 	@echo "... construction.o"
 	@echo "... construction.i"
 	@echo "... construction.s"
+	@echo "... generator.o"
+	@echo "... generator.i"
+	@echo "... generator.s"
 	@echo "... physics.o"
 	@echo "... physics.i"
 	@echo "... physics.s"
