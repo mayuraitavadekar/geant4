@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sim.dir/sim.cc.o"
   "CMakeFiles/sim.dir/action.cc.o"
   "CMakeFiles/sim.dir/construction.cc.o"
   "CMakeFiles/sim.dir/generator.cc.o"
   "CMakeFiles/sim.dir/physics.cc.o"
-  "CMakeFiles/sim.dir/sim.cc.o"
-  "sim"
   "sim.pdb"
+  "sim"
 )
 
 # Per-language clean rules from dependency scanning.
