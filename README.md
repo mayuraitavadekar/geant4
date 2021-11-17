@@ -1,4 +1,0 @@
-Cherenkov Radiation
-============
-
-Hi
